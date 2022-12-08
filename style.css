@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+* {
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+  }
+  body{
+    background-image: url(./img/cover.jpg);
+    background-position: center;
+  }
+  .container {
+    background-color:#fff;
+    padding: 25px;
+    max-width: 600px;
+    margin: 80px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  h1,
+  h2 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #header{
+    font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #b1c9bb;
+    padding: 0 0 10px;
+    color: crimson;
+    /* font-family: cursive; */
+  }
+  
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .new-task-container {
+    text-align: center;
+  }
+  #new-task{
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ddd;
+    height: 60px;
+    background-color: #fff;
+    padding: 10px 15px;
+    /* border-radius: 30px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.2);
+  }
+  #new-task:focus{
+    color: red;
+  }
+  .box {
+    padding: 10px 15px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    background: #fff;
+    margin: 15px 0;
+  }
+  
+  .todo-list {
+    float: left;
+    width: 46%;
+  }
+  
+  .complete-list {
+    float: right;
+    width: 46%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+  }
+  
+  .update {
+    float: right;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    padding: 3px 5px;
+  }
+  
+  .delete {
+    float: right;
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 3px 5px;
+    cursor: pointer;
+  
+  }
+  #addTask{
+    padding: 18px 25px;
+    width: 120px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.2);
+  
+  }
+  
